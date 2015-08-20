@@ -4,7 +4,7 @@ var app = angular.module('app', [])
 
         $scope.count = 0;
 
-        $scope.updateCount = function() {
+        $scope.parse = function() {
             var anchorElement = document.createElement('a');
             anchorElement.href = $scope.url;
 
