@@ -1,9 +1,6 @@
 var app = angular.module('app', [])
 
     .controller('UrlParserCtrl', ['$scope', function($scope) {
-
-        $scope.count = 0;
-
         $scope.parse = function() {
             var anchorElement = document.createElement('a');
             anchorElement.href = $scope.url;
